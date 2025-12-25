@@ -1,0 +1,129 @@
+body {
+  background-color: grey;
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.connexionField {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+p,
+legend {
+  color: white;
+}
+
+fieldset {
+  display: block;
+  border-color: black;
+  width: 40%;
+  margin: 15px;
+  border-radius: 10px;
+}
+fieldset form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+fieldset form legend {
+  color: white;
+}
+fieldset form label {
+  color: white;
+}
+fieldset form p {
+  color: white;
+}
+fieldset form input,
+fieldset form select {
+  background-color: lightgray;
+  border-radius: 50px;
+  padding: 15px;
+}
+fieldset form input:hover,
+fieldset form select:hover {
+  text-decoration: underline;
+}
+
+.connexion {
+  align-self: flex-end;
+  color: white;
+  background-color: goldenrod;
+  font-weight: bold;
+}
+.connexion:hover {
+  background-color: rgb(145, 109, 19);
+}
+
+nav {
+  margin-bottom: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: goldenrod;
+  border: solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+nav a:hover {
+  background-color: rgb(145, 109, 19);
+}
+
+.logOffBtn {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  border: solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+.logOffBtn:hover {
+  background-color: rgb(167, 2, 2);
+}
+
+table,
+th,
+td {
+  text-align: left;
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  table-layout: fixed;
+}
+
+table {
+  width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: #949393;
+}
+tr:nth-child(even) {
+  background-color: #cccaca;
+}
+
+.retourBtn {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(56, 154, 228);
+  border: solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+.retourBtn:hover {
+  background-color: rgb(40, 107, 158);
+}
+
+.emprunt {
+  background-color: red;
+}
+.emprunt:hover {
+  background-color: rgb(167, 2, 2);
+}
